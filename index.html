@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--=============== FAVICON ===============-->
+<link
+rel="shortcut icon"
+href="assets/img/favicon.png"
+type="image/x-icon"
+/>
+<!--=============== REMIXICONS ===============-->
+<link
+href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+rel="stylesheet"
+/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>CarRoom || pemweb 1 || Shandi.R</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+          <a href="#" class="nav__logo"> Carroom </a>
+  
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link active-link">Home</a>
+              </li>
+  
+              <li class="nav__item">
+                <a href="#list" class="nav__link">List</a>
+              </li>
+  
+              <li class="nav__item">
+                <a href="#form" class="nav__link">Form</a>
+              </li>
+              
+            </ul>
+  
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+              <i class="ri-close-line"></i>
+            </div>
+          </div>
+  
+          <!-- Toggle Button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-fill"></i>
+          </div>
+        </nav>
+      </header>
+
+      <section class="home section" id="home">
+        <img src="assets/img/1.1.1.png" alt="home image" class="home__bg" />
+        <div class="home__shadow"></div>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h3 class="home__subtitle">Welcome To Carroom</h3>
+
+            <h1 class="home__title">
+              Explore <br />
+              The Car
+            </h1>
+
+            <p class="home__description">
+                "Experience the thrill of driving, explore stunning roads, Find your dream car today and start your journey!"
+            </p>
+
+            <a href="https://www.jdmbuysell.com/" class="button">
+              Start Your Journey <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+          <div class="home__cards grid">
+            <article class="home__card">
+                <a href="https://www.porsche.com/pap/_indonesia_/models/911/911-gt3-models/911-gt3/" target="_blank">
+                  <img src="assets/img/1.2.3.png" alt="Bali" class="home__card-img" />
+                </a>
+                <h3 class="home__card-title">Porsche 911</h3>
+                
+              </article>
+              <article class="home__card">
+                <a href="https://www.toyota.astra.co.id/product/gr-supra" target="_blank">
+                  <img src="assets/img/2.2.png" alt="Thailand" class="home__card-img" />
+                </a>
+                <h3 class="home__card-title">Supra MK5</h3>
+               
+              </article>
+              <article class="home__card">
+                <a href="https://www2.mazda.com/en/100th/cars/detail_045_rx8.html" target="_blank">
+                  <img src="assets/img/3.1.png" alt="China" class="home__card-img" />
+                </a>
+                <h3 class="home__card-title">Mazda RX8</h3>
+                
+              </article>
+              <article class="home__card">
+                <a href="https://www.bmw.co.id/en/all-models/m-series/bmw-4-series-m-models/bmw-m4-coupe.html" target="_blank">
+                  <img src="assets/img/1.2.2.png" alt="Iceland" class="home__card-img" />
+                </a>
+                <h3 class="home__card-title">Bmw M4</h3>
+                
+              </article>
+              </div>
+        </div>
+      </section>
+
+
+  <!-- Tabel Nama mobil -->
+  <div class="home__table"  id="list">
+    <h2 class="home__table-title">List of Islands</h2>
+    <table border="1" cellspacing="0" cellpadding="10">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Car Name</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>porsche</td>
+          <td>Jerman</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Supra MK5</td>
+          <td>Jepang</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Mazda RX8</td>
+          <td>Jepang</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Bmw M4</td>
+          <td>Jerman</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Form Penambahan Data -->
+<div class="home__form "  id="form">
+    <h2 class="home__form-title">Add New Car</h2>
+    <form action="#" method="POST">
+        <label for="island-name">Car Name:</label>
+        <input type="text" id="island-name" name="island-name" required>
+
+        <label for="country-name">Country:</label>
+        <input type="text" id="country-name" name="country-name" required>
+
+        <button  type="submit" class="button">Add Car</button>
+    </form>
+</div>
+
+<div class="bottom-footer">
+    <p>Copyright &copy; <a href="https://olivertokio.github.io/portofolio/" style="text-decoration: none;">Shandi Reskiawan</a> - All rights reserved</p>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
